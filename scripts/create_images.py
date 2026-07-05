@@ -1,7 +1,7 @@
 from pathlib import Path
 import re
 
-BASE = Path("imgs")
+BASE = Path("/home/dios/Resources/Website/main/imgs/")
 
 
 def get_next_id(category_path: Path):

@@ -4,7 +4,7 @@ import re
 import unicodedata
 
 # Root folder containing all categories
-ROOT_DIR = Path("/home/dios/Resources/Website/main/vds")
+ROOT_DIR = Path("/home/dios/Resources/Website/main/imgs")
 
 VIDEO_EXTENSIONS = {
     ".mp4",
