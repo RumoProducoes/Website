@@ -22,7 +22,7 @@ def rename_folder(folder: Path):
         name = img.stem.lower()
 
         # MAIN IMAGE
-        if name == "main":
+        if name != "main" and name != "left" and name != "front" and name != "right":
             new_name = "main.webp"
             img.rename(folder / new_name)
             print(f"{img.name} → {new_name}")
